@@ -22,9 +22,9 @@ GAME_CLOCK = 20.0
 CONNECT_TIMEOUT = 10.0
 
 NUM_ROUNDS = 1000
-STARTING_STACK = 500
-BIG_BLIND = 2
-SMALL_BLIND = 1
+STARTING_STACK = 5000
+BIG_BLIND = 20
+SMALL_BLIND = 10
 
 # Format Utils ---------------------------------------------------------------------------------------
 CCARDS = lambda cards: ','.join(map(str, cards))

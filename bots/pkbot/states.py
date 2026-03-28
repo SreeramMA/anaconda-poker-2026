@@ -7,9 +7,9 @@ from .actions import ActionFold, ActionCall, ActionCheck, ActionRaise, ActionPas
 GameInfo = namedtuple('GameInfo', ['bankroll', 'time_bank', 'round_num'])
 HandResult = namedtuple('HandResult', ['payoffs', 'parent_state'])
 
-STARTING_STACK = 500
-BIG_BLIND = 2
-SMALL_BLIND = 1
+STARTING_STACK = 5000
+BIG_BLIND = 20
+SMALL_BLIND = 10
 
 STREET_LABELS  = ['TriplePass', 'Betting#1', 'DoublePass', 'Betting#2', 'SinglePass', 'Betting#3']
 
